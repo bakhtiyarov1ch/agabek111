@@ -1,4 +1,4 @@
-import React, { useState, useEffect, useRef } from 'react';
+import { useState, useEffect, useRef } from 'react';
 import { solveNeedlemanWunsch, AlignmentStep } from './utils/alignment';
 import { ControlPanel } from './components/ControlPanel';
 import { DPMatrix } from './components/DPMatrix';

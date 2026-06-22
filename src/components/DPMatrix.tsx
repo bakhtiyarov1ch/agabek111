@@ -10,8 +10,6 @@ interface DPMatrixProps {
 }
 
 export const DPMatrix: React.FC<DPMatrixProps> = ({ seq1, seq2, matrix }) => {
-  const m = seq1.length;
-  const n = seq2.length;
 
   if (matrix.length === 0) return null;
 
